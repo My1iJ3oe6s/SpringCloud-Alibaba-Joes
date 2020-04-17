@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: zuul
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.54.64.129:8848
+        namespace: public
+      config:
+        server-addr: 106.54.64.129:8848
+        namespace: public
+        file-extension: yaml
+        ext-config[0]:
+          data-id: zuul.yaml
+          group: DEFAULT_GROUP
+
+zuul:
+  routes:
+    client1:
+      path: /test1
+      service-id: nacos-provider1
+    client2:
+      path: /test2
+      service-id: nacos-provider2
+
+
+

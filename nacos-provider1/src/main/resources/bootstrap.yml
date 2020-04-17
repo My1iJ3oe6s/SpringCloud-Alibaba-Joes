@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: nacos-provider2
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.54.64.129:8848
+        namespace: public
+      config:
+        server-addr: 106.54.64.129:8848
+        namespace: public
+        file-extension: yaml
+        ext-config[0]:
+          data-id: nacos-provider2.yaml
+          group: DEFAULT_GROUP
