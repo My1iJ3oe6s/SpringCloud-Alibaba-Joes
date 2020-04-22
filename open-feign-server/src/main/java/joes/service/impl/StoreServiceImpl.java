@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 public class StoreServiceImpl implements StoreService {
     @Override
     public String getById(Integer id) {
+
         return "Feign Result";
     }
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1-GateWay-server/1-GateWay-consumer.iml" filepath="$PROJECT_DIR$/1-GateWay-server/1-GateWay-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-GateWay-server/2-GateWay-server.iml" filepath="$PROJECT_DIR$/2-GateWay-server/2-GateWay-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud-Alibaba-Joes.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud-Alibaba-Joes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-provider/nacos-provider.iml" filepath="$PROJECT_DIR$/nacos-provider/nacos-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-provider1/nacos-provider1.iml" filepath="$PROJECT_DIR$/nacos-provider1/nacos-provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/open-feign-consumer/open-feign-consumer.iml" filepath="$PROJECT_DIR$/open-feign-consumer/open-feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1-GateWay-consumer/open-feign-consumer (1).iml" filepath="$PROJECT_DIR$/1-GateWay-consumer/open-feign-consumer (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/open-feign-server/open-feign-server.iml" filepath="$PROJECT_DIR$/open-feign-server/open-feign-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1-GateWay-server/open-feign-server (1).iml" filepath="$PROJECT_DIR$/1-GateWay-server/open-feign-server (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

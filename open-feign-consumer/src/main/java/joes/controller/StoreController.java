@@ -21,4 +21,5 @@ public class StoreController {
     public String selectById(){
         return storeService.selectById(1);
     }
+
 }

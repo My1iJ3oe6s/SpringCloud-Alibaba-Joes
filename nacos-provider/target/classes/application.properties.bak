@@ -1,0 +1,5 @@
+server.port=8077
+
+spring.application.name=nacos-provider
+spring.cloud.nacos.discovery.server-addr=106.54.64.129:8848
+spring.cloud.nacos.discovery.namespace=public

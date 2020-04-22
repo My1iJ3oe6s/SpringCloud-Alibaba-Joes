@@ -6,12 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zuul" />
-        <module name="open-feign-server" />
+        <module name="2-GateWay-server" />
         <module name="open-feign-consumer" />
+        <module name="open-feign-server" />
+        <module name="open-feign-consumer (1)" />
         <module name="nacos-provider" />
+        <module name="1-GateWay-consumer" />
+        <module name="open-feign-server (1)" />
         <module name="nacos-provider1" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1-GateWay-consumer" target="1.8" />
+      <module name="1-GateWay-server" target="1.8" />
+      <module name="2-GateWay-server" target="1.8" />
+      <module name="nacos-provider" target="1.8" />
+      <module name="nacos-provider1" target="1.8" />
+      <module name="open-feign-consumer" target="1.8" />
+      <module name="open-feign-consumer (1)" target="1.8" />
+      <module name="open-feign-server" target="1.8" />
+      <module name="open-feign-server (1)" target="1.8" />
+      <module name="SpringCloud-Alibaba-Joes" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

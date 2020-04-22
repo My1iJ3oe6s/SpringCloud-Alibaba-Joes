@@ -1,0 +1,20 @@
+server:
+  port: 8111
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.54.64.129:8848
+        namespace: public
+    gateway:
+      routes:
+        - id: test-uri
+          uri: lb://nacos-provider1
+          predicates:
+            - Path=/test1
+        - id: test-uri1
+          uri: lb://nacos-provider2
+          predicates:
+            - Path=/test2
