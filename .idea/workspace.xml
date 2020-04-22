@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cdae6a-396d-43f9-b2cc-c7b5175453e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2-GateWay-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-GateWay-server/src/main/java/joes/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-GateWay-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/open-feign-consumer/src/main/java/joes/service/impl/StoreServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/joes/config/BaseFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-GateWay-server/src/main/java/joes/config/MyGateWayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-GateWay-server/src/main/java/joes/config/TestGateWayFilterFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open-feign-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/open-feign-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open-feign-consumer/src/main/java/joes/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/open-feign-consumer/src/main/java/joes/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open-feign-consumer/src/main/java/joes/controller/StoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/open-feign-consumer/src/main/java/joes/controller/StoreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open-feign-consumer/src/main/java/joes/service/StoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/open-feign-consumer/src/main/java/joes/service/StoreService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open-feign-consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/open-feign-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open-feign-server/src/main/java/joes/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/open-feign-server/src/main/java/joes/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open-feign-server/src/main/java/joes/service/impl/StoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/open-feign-server/src/main/java/joes/service/impl/StoreServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/joes/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/joes/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-GateWay-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/2-GateWay-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-GateWay-server/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/2-GateWay-server/target/classes/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +46,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/2-GateWay-server/src/main/resources" />
@@ -76,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="joes.config" />
       <recent name="joes" />
       <recent name="joes.service.impl" />
     </key>
@@ -87,33 +78,7 @@
       <recent name="E:\github\SpringCloud-Alibaba-Joes\nacos-provider1\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (5)">
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="nacos-provider1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="joes.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="nacos-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="joes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="joes.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.GateWay-server">
     <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="open-feign-server" />
       <extension name="coverage">
@@ -140,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GateWay-server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="2-GateWay-server" />
       <extension name="coverage">
         <pattern>
@@ -149,16 +114,45 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="joes.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nacos-provider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="nacos-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="joes.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nacos-provider1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="nacos-provider1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="joes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="joes.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application (5)" />
+        <item itemvalue="Spring Boot.GateWay-server" />
+        <item itemvalue="Spring Boot.nacos-provider1" />
+        <item itemvalue="Spring Boot.nacos-provider" />
         <item itemvalue="Spring Boot.Application (3)" />
-        <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Spring Boot.Application (4)" />
       </list>
     </recent_temporary>
@@ -175,7 +169,7 @@
       <updated>1587115652058</updated>
       <workItem from="1587115654888" duration="717000" />
       <workItem from="1587116496983" duration="467000" />
-      <workItem from="1587348208173" duration="34598000" />
+      <workItem from="1587348208173" duration="51530000" />
     </task>
     <servers />
   </component>
@@ -183,18 +177,30 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1587376008172">
+    <state x="590" y="113" key="#Application_(1)" timestamp="1587536273926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587376008172" />
+    <state x="590" y="113" key="#Application_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1587536273926" />
+    <state x="590" y="113" key="#Application_(2)" timestamp="1587536243814">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="113" key="#Application_(2)/0.0.1920.1040@0.0.1920.1040" timestamp="1587536243814" />
+    <state x="590" y="113" key="#Application_(5)" timestamp="1587536311720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="113" key="#Application_(5)/0.0.1920.1040@0.0.1920.1040" timestamp="1587536311720" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1587547184679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587547184679" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587521875757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587521875757" />
-    <state x="632" y="442" width="1214" height="597" key="#xdebugger.evaluate" timestamp="1587522785524">
+    <state x="342" y="443" width="1214" height="597" key="#xdebugger.evaluate" timestamp="1587547350514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="632" y="442" width="1214" height="597" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1587522785524" />
+    <state x="342" y="443" width="1214" height="597" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1587547350514" />
     <state x="-72" y="142" width="1560" height="870" key="CommitChangelistDialog2" timestamp="1587353300735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -207,54 +213,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="813" y="354" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587116882053" />
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1587547518458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
-    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1587523105512">
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587547518458" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1587547518458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105512" />
-    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1587523105512">
+    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587547518458" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1587547518458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105512" />
-    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587547518458" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1587547518458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
-    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587547518458" />
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1587547513356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
-    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587547513356" />
+    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1587547513356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
-    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587547513356" />
+    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1587547513356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
-    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587547513356" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1587547513356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
-    <state width="1877" height="351" key="GridCell.Tab.2.bottom" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587547513356" />
+    <state width="1877" height="351" key="GridCell.Tab.2.bottom" timestamp="1587547502835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
-    <state width="1877" height="351" key="GridCell.Tab.2.center" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587547502835" />
+    <state width="1877" height="351" key="GridCell.Tab.2.center" timestamp="1587547502835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
-    <state width="1877" height="351" key="GridCell.Tab.2.left" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587547502835" />
+    <state width="1877" height="351" key="GridCell.Tab.2.left" timestamp="1587547502835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
-    <state width="1877" height="351" key="GridCell.Tab.2.right" timestamp="1587523105513">
+    <state width="1877" height="351" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587547502835" />
+    <state width="1877" height="351" key="GridCell.Tab.2.right" timestamp="1587547502835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587523105513" />
+    <state width="1877" height="351" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587547502835" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1587463169941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,18 +277,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="504" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1587353712871" />
-    <state x="662" y="254" width="596" height="532" key="find.popup" timestamp="1587520117977">
+    <state x="662" y="254" width="596" height="532" key="find.popup" timestamp="1587539215149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="254" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587520117977" />
+    <state x="662" y="254" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587539215149" />
     <state x="653" y="272" key="new project wizard" timestamp="1587521823947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="272" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587521823947" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587367001481">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587544819163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587367001481" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587544819163" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -291,11 +297,6 @@
           <url>file://$PROJECT_DIR$/zuul/src/main/java/joes/config/BaseFilter.java</url>
           <line>52</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/nacos-provider/src/main/java/joes/controller/RestProviderController.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/open-feign-consumer/src/main/java/joes/service/impl/StoreServiceImpl.java</url>
@@ -313,7 +314,18 @@
           <line>170</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../development/maven/maven-repository/org/springframework/cloud/spring-cloud-gateway-core/2.1.0.RELEASE/spring-cloud-gateway-core-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/gateway/filter/factory/RewritePathGatewayFilterFactory.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="reactor.core.publisher.FluxIterable" fieldName="iterable" />
+        <PinnedItemInfo typeName="org.springframework.cloud.gateway.route.RouteDefinition" fieldName="id" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

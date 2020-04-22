@@ -14,6 +14,8 @@ spring:
           uri: lb://nacos-provider1 #路由的地址为: lb://{{Nacos_id}}
           predicates:
             - Path=/test1  # 注意此处Path的P是大写
+          filters:
+            - TestGateWayFilterFactory
         - id: test-uri1
           uri: lb://nacos-provider2
           predicates:
